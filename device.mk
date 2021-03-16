@@ -19,6 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_SOONG_NAMESPACES += external/mesa3d
 
+DEVICE_PATH := device/sony/tulip-mainline
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
