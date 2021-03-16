@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/sony/tulip-mainline
+
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_tulip.mk
 
