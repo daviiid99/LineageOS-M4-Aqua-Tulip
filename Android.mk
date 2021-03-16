@@ -19,7 +19,7 @@ ifeq (msm8939 ,$(TARGET_BOARD_PLATFORM))
 LOCAL_PATH := $(call my-dir)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-
+endif
 ifeq ($(TARGET_DEVICE),tulip)
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
