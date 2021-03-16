@@ -39,7 +39,7 @@ BOARD_KERNEL_BASE        := 0x80000000
 BOARD_KERNEL_PAGESIZE    := 2048
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET     := 0x02000000
-TARGET_KERNEL_CONFIG := lineageos_tulip_defconfig
+TARGET_KERNEL_CONFIG := kernel/sony/tulip-mainline/arch/arm64/configs/msm8939_defconfig
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := false
