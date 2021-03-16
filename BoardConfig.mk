@@ -34,7 +34,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 BOARD_KERNEL_CMDLINE += androidboot.hardware=tulip androidboot.boot_devices=soc/7824900.sdhci
 BOARD_KERNEL_CMDLINE += androidboot.memcg=1 cgroup.memory=nokmem
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-
+BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_BASE        := 0x80000000
 BOARD_KERNEL_PAGESIZE    := 2048
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
