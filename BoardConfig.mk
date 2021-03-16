@@ -15,6 +15,16 @@
 # 
 
 TARGET_BOARD_PLATFORM := msm8939
+DEVICE_PATH := device/sony/tulip-mainline
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := tulip
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
 
 # Primary Arch
 TARGET_ARCH := arm64
