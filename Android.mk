@@ -15,4 +15,12 @@
 #
 
 LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := device/sony/tulip-mainline
+
+ifneq ($(filter tulip-mainline,$(TARGET_DEVICE)),)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
+endif
+
 
