@@ -21,8 +21,8 @@ BOARD_VENDOR := sony
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tulip
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+# Build broken
+BUILD_BROKEN_DUP_RULES := true
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
