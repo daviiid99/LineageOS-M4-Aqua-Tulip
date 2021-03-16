@@ -1,6 +1,8 @@
 #
 # Copyright 2020, Pavel Dubrova <pashadubrova@gmail.com>
+# Copyright (C) 2021 The LineageOS Project
 #
+# SPDX-License-Identifier: Apache-2.0
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -21,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-PRODUCT_NAME := aosp_tulip
+PRODUCT_NAME := lineage_tulip
 PRODUCT_DEVICE := tulip-mainline
 PRODUCT_MODEL := Xperia M4 Aqua
 PRODUCT_BRAND := sony
