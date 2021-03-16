@@ -9,7 +9,6 @@ cc_binary {
         "liblog",
         "libhardware",
         "libbinder_ndk",
-        "android.hardware.light-ndk_platform",
     ],
     srcs: [
         "Lights.cpp",
