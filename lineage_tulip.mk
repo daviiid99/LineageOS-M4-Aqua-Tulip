@@ -28,3 +28,9 @@ PRODUCT_DEVICE := tulip-mainline
 PRODUCT_MODEL := Xperia M4 Aqua
 PRODUCT_BRAND := sony
 PRODUCT_MANUFACTURER := Sony
+
+TARGET_VENDOR_PRODUCT_NAME := tulip-mainline
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.6.0.PFGMIXM release-keys"
+
+BUILD_FINGERPRINT := xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.6.0.PFGMIXM:user/release-keys
